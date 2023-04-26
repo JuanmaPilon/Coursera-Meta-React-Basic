@@ -1,8 +1,10 @@
-import './App.css';
+import "./App.css"
 import pocahontas from "./pocahontas-carito.jpeg" 
+import Botonsitou from "./Botonsito"
+import "./index.css"
 
 function Main (props) {
-  return <h2>Soy {props.name} (La pocahontas)</h2>
+  return <h2 className="Main">Soy {props.name} (La pocahontas)</h2>
 };
 
 function ImageComp () {
@@ -20,6 +22,8 @@ function App() {
     <Header apodo = "la roba kills!"/>
     <Main name = "Carito"/>
     <ImageComp />
+    <Botonsitou />
+
   </div>
   );
 }

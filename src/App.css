@@ -1,28 +1,10 @@
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
+.Botonsitou {
   margin: 20px;
   max-width: 300px;
   border: 1px solid gray;
   padding: 20px;
   border-radius: 10px;
-}
-
-.App {
-  margin: 20px;
-  max-width: 300px;
-  border: 1px solid gray;
-  padding: 20px;
-  border-radius: 10px;
+  color: blue;
 }
 
 .Main {
@@ -31,28 +13,5 @@
   border: 1px solid gray;
   padding: 20px;
   border-radius: 10px;
-}
-
-
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-
-
-.Header {
-  margin: 20px;
-  max-width: 300px;
-  border: 1px solid gray;
-  padding: 20px;
-  border-radius: 10px;
+  color: azure;
 }
